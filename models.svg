@@ -1,0 +1,188 @@
+<svg width="980" height="420" viewBox="0 0 980 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="980" height="420" fill="#07070f"/>
+
+  <!-- Card template macro via groups -->
+  <!-- OpenAI -->
+  <g transform="translate(0,0)">
+    <rect x="10" y="10" width="225" height="195" rx="16" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <rect x="198" y="20" width="32" height="18" rx="5" fill="rgba(0,255,136,0.08)" stroke="rgba(0,255,136,0.28)" stroke-width="1"/>
+    <text x="214" y="33" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="800" fill="#00ff88">FREE</text>
+    <rect x="22" y="22" width="32" height="32" rx="8" fill="url(#oai)"/>
+    <defs><linearGradient id="oai" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10a37f"/><stop offset="1" stop-color="#1a7f64"/></linearGradient></defs>
+    <text x="38" y="43" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#fff">AI</text>
+    <text x="62" y="35" font-family="sans-serif" font-size="12" font-weight="700" fill="#10a37f">OpenAI</text>
+    <text x="62" y="48" font-family="sans-serif" font-size="9" fill="#6b7280">GPT 系列模型</text>
+    <line x1="22" y1="64" x2="222" y2="64" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="85" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">gpt-4o</text>
+    <circle cx="215" cy="81" r="3" fill="#00ff88"/>
+    <line x1="22" y1="97" x2="222" y2="97" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="115" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">gpt-4o-mini</text>
+    <circle cx="215" cy="111" r="3" fill="#00ff88"/>
+    <line x1="22" y1="127" x2="222" y2="127" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="145" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">o1</text>
+    <circle cx="215" cy="141" r="3" fill="#00ff88"/>
+    <line x1="22" y1="157" x2="222" y2="157" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="175" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">o3-mini</text>
+    <circle cx="215" cy="171" r="3" fill="#00ff88"/>
+    <line x1="22" y1="187" x2="222" y2="187" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="200" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">gpt-4-turbo</text>
+    <circle cx="215" cy="196" r="3" fill="#00ff88"/>
+  </g>
+
+  <!-- Claude -->
+  <g transform="translate(245,0)">
+    <rect x="10" y="10" width="225" height="195" rx="16" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <rect x="198" y="20" width="32" height="18" rx="5" fill="rgba(0,255,136,0.08)" stroke="rgba(0,255,136,0.28)" stroke-width="1"/>
+    <text x="214" y="33" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="800" fill="#00ff88">FREE</text>
+    <defs><linearGradient id="cl" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d4a574"/><stop offset="1" stop-color="#c4956a"/></linearGradient></defs>
+    <rect x="22" y="22" width="32" height="32" rx="8" fill="url(#cl)"/>
+    <text x="38" y="43" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#fff">C</text>
+    <text x="62" y="35" font-family="sans-serif" font-size="12" font-weight="700" fill="#d4a574">Anthropic Claude</text>
+    <text x="62" y="48" font-family="sans-serif" font-size="9" fill="#6b7280">Claude 系列模型</text>
+    <line x1="22" y1="64" x2="222" y2="64" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="85" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">claude-sonnet-4-6</text>
+    <circle cx="215" cy="81" r="3" fill="#00ff88"/>
+    <line x1="22" y1="97" x2="222" y2="97" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="115" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">claude-opus-4-6</text>
+    <circle cx="215" cy="111" r="3" fill="#00ff88"/>
+    <line x1="22" y1="127" x2="222" y2="127" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="145" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">claude-3-7-sonnet</text>
+    <circle cx="215" cy="141" r="3" fill="#00ff88"/>
+    <line x1="22" y1="157" x2="222" y2="157" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="175" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">claude-3-5-haiku</text>
+    <circle cx="215" cy="171" r="3" fill="#00ff88"/>
+  </g>
+
+  <!-- Gemini -->
+  <g transform="translate(490,0)">
+    <rect x="10" y="10" width="225" height="195" rx="16" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <rect x="198" y="20" width="32" height="18" rx="5" fill="rgba(0,255,136,0.08)" stroke="rgba(0,255,136,0.28)" stroke-width="1"/>
+    <text x="214" y="33" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="800" fill="#00ff88">FREE</text>
+    <defs><linearGradient id="gm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4285f4"/><stop offset="1" stop-color="#34a853"/></linearGradient></defs>
+    <rect x="22" y="22" width="32" height="32" rx="8" fill="url(#gm)"/>
+    <text x="38" y="43" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#fff">G</text>
+    <text x="62" y="35" font-family="sans-serif" font-size="12" font-weight="700" fill="#4285f4">Google Gemini</text>
+    <text x="62" y="48" font-family="sans-serif" font-size="9" fill="#6b7280">Gemini 系列模型</text>
+    <line x1="22" y1="64" x2="222" y2="64" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="85" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">gemini-2.5-pro</text>
+    <circle cx="215" cy="81" r="3" fill="#00ff88"/>
+    <line x1="22" y1="97" x2="222" y2="97" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="115" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">gemini-2.5-flash</text>
+    <circle cx="215" cy="111" r="3" fill="#00ff88"/>
+    <line x1="22" y1="127" x2="222" y2="127" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="145" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">gemini-2.0-flash</text>
+    <circle cx="215" cy="141" r="3" fill="#00ff88"/>
+    <line x1="22" y1="157" x2="222" y2="157" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="175" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">gemini-1.5-pro</text>
+    <circle cx="215" cy="171" r="3" fill="#00ff88"/>
+  </g>
+
+  <!-- DeepSeek -->
+  <g transform="translate(735,0)">
+    <rect x="10" y="10" width="225" height="195" rx="16" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <rect x="198" y="20" width="32" height="18" rx="5" fill="rgba(0,255,136,0.08)" stroke="rgba(0,255,136,0.28)" stroke-width="1"/>
+    <text x="214" y="33" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="800" fill="#00ff88">FREE</text>
+    <defs><linearGradient id="ds" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5b6cf9"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+    <rect x="22" y="22" width="32" height="32" rx="8" fill="url(#ds)"/>
+    <text x="38" y="43" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#fff">D</text>
+    <text x="62" y="35" font-family="sans-serif" font-size="12" font-weight="700" fill="#8b5cf6">DeepSeek</text>
+    <text x="62" y="48" font-family="sans-serif" font-size="9" fill="#6b7280">国产顶尖模型</text>
+    <line x1="22" y1="64" x2="222" y2="64" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="85" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">deepseek-v3</text>
+    <circle cx="215" cy="81" r="3" fill="#00ff88"/>
+    <line x1="22" y1="97" x2="222" y2="97" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="115" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">deepseek-chat</text>
+    <circle cx="215" cy="111" r="3" fill="#00ff88"/>
+    <line x1="22" y1="127" x2="222" y2="127" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="145" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">deepseek-coder</text>
+    <circle cx="215" cy="141" r="3" fill="#00ff88"/>
+    <line x1="22" y1="157" x2="222" y2="157" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="175" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">deepseek-reasoner</text>
+    <circle cx="215" cy="171" r="3" fill="#00ff88"/>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- Grok -->
+  <g transform="translate(0,215)">
+    <rect x="10" y="10" width="225" height="160" rx="16" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <rect x="198" y="20" width="32" height="18" rx="5" fill="rgba(0,255,136,0.08)" stroke="rgba(0,255,136,0.28)" stroke-width="1"/>
+    <text x="214" y="33" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="800" fill="#00ff88">FREE</text>
+    <defs><linearGradient id="gk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d9bf0"/><stop offset="1" stop-color="#0d8bd9"/></linearGradient></defs>
+    <rect x="22" y="22" width="32" height="32" rx="8" fill="url(#gk)"/>
+    <text x="38" y="43" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#fff">X</text>
+    <text x="62" y="35" font-family="sans-serif" font-size="12" font-weight="700" fill="#1d9bf0">xAI Grok</text>
+    <text x="62" y="48" font-family="sans-serif" font-size="9" fill="#6b7280">Elon Musk 出品</text>
+    <line x1="22" y1="64" x2="222" y2="64" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="85" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">grok-3</text>
+    <circle cx="215" cy="81" r="3" fill="#00ff88"/>
+    <line x1="22" y1="97" x2="222" y2="97" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="115" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">grok-3-mini</text>
+    <circle cx="215" cy="111" r="3" fill="#00ff88"/>
+    <line x1="22" y1="127" x2="222" y2="127" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="145" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">grok-2</text>
+    <circle cx="215" cy="141" r="3" fill="#00ff88"/>
+  </g>
+
+  <!-- Kimi -->
+  <g transform="translate(245,215)">
+    <rect x="10" y="10" width="225" height="160" rx="16" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <rect x="198" y="20" width="32" height="18" rx="5" fill="rgba(0,255,136,0.08)" stroke="rgba(0,255,136,0.28)" stroke-width="1"/>
+    <text x="214" y="33" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="800" fill="#00ff88">FREE</text>
+    <defs><linearGradient id="km" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+    <rect x="22" y="22" width="32" height="32" rx="8" fill="url(#km)"/>
+    <text x="38" y="43" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#fff">K</text>
+    <text x="62" y="35" font-family="sans-serif" font-size="12" font-weight="700" fill="#6366f1">Moonshot Kimi</text>
+    <text x="62" y="48" font-family="sans-serif" font-size="9" fill="#6b7280">超长上下文专家</text>
+    <line x1="22" y1="64" x2="222" y2="64" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="85" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">moonshot-v1-128k</text>
+    <circle cx="215" cy="81" r="3" fill="#00ff88"/>
+    <line x1="22" y1="97" x2="222" y2="97" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="115" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">moonshot-v1-32k</text>
+    <circle cx="215" cy="111" r="3" fill="#00ff88"/>
+    <line x1="22" y1="127" x2="222" y2="127" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="145" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">moonshot-v1-8k</text>
+    <circle cx="215" cy="141" r="3" fill="#00ff88"/>
+  </g>
+
+  <!-- Llama -->
+  <g transform="translate(490,215)">
+    <rect x="10" y="10" width="225" height="160" rx="16" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <rect x="198" y="20" width="32" height="18" rx="5" fill="rgba(0,255,136,0.08)" stroke="rgba(0,255,136,0.28)" stroke-width="1"/>
+    <text x="214" y="33" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="800" fill="#00ff88">FREE</text>
+    <defs><linearGradient id="ll" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0668E1"/><stop offset="1" stop-color="#0958C5"/></linearGradient></defs>
+    <rect x="22" y="22" width="32" height="32" rx="8" fill="url(#ll)"/>
+    <text x="38" y="43" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#fff">M</text>
+    <text x="62" y="35" font-family="sans-serif" font-size="12" font-weight="700" fill="#0668E1">Meta Llama</text>
+    <text x="62" y="48" font-family="sans-serif" font-size="9" fill="#6b7280">开源大模型</text>
+    <line x1="22" y1="64" x2="222" y2="64" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="85" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">llama-3.3-70b</text>
+    <circle cx="215" cy="81" r="3" fill="#00ff88"/>
+    <line x1="22" y1="97" x2="222" y2="97" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="115" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">llama-3.1-405b</text>
+    <circle cx="215" cy="111" r="3" fill="#00ff88"/>
+    <line x1="22" y1="127" x2="222" y2="127" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="145" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">llama-3.1-70b</text>
+    <circle cx="215" cy="141" r="3" fill="#00ff88"/>
+  </g>
+
+  <!-- Qwen -->
+  <g transform="translate(735,215)">
+    <rect x="10" y="10" width="225" height="160" rx="16" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <rect x="198" y="20" width="32" height="18" rx="5" fill="rgba(0,255,136,0.08)" stroke="rgba(0,255,136,0.28)" stroke-width="1"/>
+    <text x="214" y="33" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="800" fill="#00ff88">FREE</text>
+    <defs><linearGradient id="qw" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#615EFF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+    <rect x="22" y="22" width="32" height="32" rx="8" fill="url(#qw)"/>
+    <text x="38" y="43" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#fff">Q</text>
+    <text x="62" y="35" font-family="sans-serif" font-size="12" font-weight="700" fill="#615EFF">Alibaba Qwen</text>
+    <text x="62" y="48" font-family="sans-serif" font-size="9" fill="#6b7280">通义千问系列</text>
+    <line x1="22" y1="64" x2="222" y2="64" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="85" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">qwen-max</text>
+    <circle cx="215" cy="81" r="3" fill="#00ff88"/>
+    <line x1="22" y1="97" x2="222" y2="97" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="115" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">qwen-plus</text>
+    <circle cx="215" cy="111" r="3" fill="#00ff88"/>
+    <line x1="22" y1="127" x2="222" y2="127" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="22" y="145" font-family="'SF Mono',monospace" font-size="10" fill="#e4e4f0">qwen-turbo</text>
+    <circle cx="215" cy="141" r="3" fill="#00ff88"/>
+  </g>
+</svg>

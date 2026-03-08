@@ -1,0 +1,33 @@
+<svg width="980" height="70" viewBox="0 0 980 70" xmlns="http://www.w3.org/2000/svg">
+  <rect width="980" height="70" fill="#07070f"/>
+  <!-- Status pills -->
+  <rect x="10" y="15" width="148" height="40" rx="12" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="30" cy="35" r="5" fill="#00ff88"/>
+  <text x="44" y="31" font-family="sans-serif" font-size="11" font-weight="600" fill="#e4e4f0">OpenAI</text>
+  <text x="44" y="46" font-family="sans-serif" font-size="9" fill="#00ff88">156ms · 正常</text>
+
+  <rect x="174" y="15" width="148" height="40" rx="12" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="194" cy="35" r="5" fill="#00ff88"/>
+  <text x="208" y="31" font-family="sans-serif" font-size="11" font-weight="600" fill="#e4e4f0">Claude</text>
+  <text x="208" y="46" font-family="sans-serif" font-size="9" fill="#00ff88">189ms · 正常</text>
+
+  <rect x="338" y="15" width="148" height="40" rx="12" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="358" cy="35" r="5" fill="#00ff88"/>
+  <text x="372" y="31" font-family="sans-serif" font-size="11" font-weight="600" fill="#e4e4f0">Gemini</text>
+  <text x="372" y="46" font-family="sans-serif" font-size="9" fill="#00ff88">134ms · 正常</text>
+
+  <rect x="502" y="15" width="148" height="40" rx="12" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="522" cy="35" r="5" fill="#00ff88"/>
+  <text x="536" y="31" font-family="sans-serif" font-size="11" font-weight="600" fill="#e4e4f0">DeepSeek</text>
+  <text x="536" y="46" font-family="sans-serif" font-size="9" fill="#00ff88">98ms · 正常</text>
+
+  <rect x="666" y="15" width="148" height="40" rx="12" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="686" cy="35" r="5" fill="#00ff88"/>
+  <text x="700" y="31" font-family="sans-serif" font-size="11" font-weight="600" fill="#e4e4f0">Grok</text>
+  <text x="700" y="46" font-family="sans-serif" font-size="9" fill="#00ff88">167ms · 正常</text>
+
+  <rect x="830" y="15" width="140" height="40" rx="12" fill="#0d0d1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="850" cy="35" r="5" fill="#00ff88"/>
+  <text x="864" y="31" font-family="sans-serif" font-size="11" font-weight="600" fill="#e4e4f0">Kimi</text>
+  <text x="864" y="46" font-family="sans-serif" font-size="9" fill="#00ff88">112ms · 正常</text>
+</svg>

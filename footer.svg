@@ -1,0 +1,12 @@
+<svg width="980" height="100" viewBox="0 0 980 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="980" height="100" fill="#07070f"/>
+  <line x1="0" y1="1" x2="980" y2="1" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <defs>
+    <linearGradient id="logoG" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#00ff88"/><stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <text x="490" y="38" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="900" fill="url(#logoG)">AIFamily</text>
+  <text x="490" y="56" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">One API, One Family</text>
+  <text x="490" y="85" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">© 2026 AIFamily. All rights reserved.</text>
+</svg>

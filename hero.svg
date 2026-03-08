@@ -1,0 +1,62 @@
+<svg width="980" height="320" viewBox="0 0 980 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07070f"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="40%" stop-color="#3b82f6"/>
+      <stop offset="80%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#00ff88"/>
+    </linearGradient>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="980" height="320" fill="url(#bg)"/>
+
+  <!-- Grid lines subtle -->
+  <line x1="0" y1="160" x2="980" y2="160" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="490" y1="0" x2="490" y2="320" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Decorative dots -->
+  <circle cx="80" cy="60" r="2" fill="#00ff88" opacity="0.4"/>
+  <circle cx="860" cy="80" r="3" fill="#3b82f6" opacity="0.4"/>
+  <circle cx="30" cy="200" r="2" fill="#8b5cf6" opacity="0.3"/>
+  <circle cx="940" cy="240" r="2" fill="#00ff88" opacity="0.3"/>
+  <circle cx="150" cy="270" r="1.5" fill="#ec4899" opacity="0.4"/>
+  <circle cx="820" cy="260" r="2" fill="#3b82f6" opacity="0.3"/>
+
+  <!-- Status pill -->
+  <rect x="375" y="28" width="230" height="28" rx="14" fill="rgba(0,255,136,0.08)" stroke="rgba(0,255,136,0.3)" stroke-width="1"/>
+  <circle cx="393" cy="42" r="4" fill="#00ff88"/>
+  <text x="405" y="47" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="#00ff88">系统全面运行 · 99.9% SLA 保障</text>
+
+  <!-- Main title line 1 -->
+  <text x="490" y="110" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="52" font-weight="900" fill="#e4e4f0" letter-spacing="-2">全球 AI 模型</text>
+
+  <!-- Main title line 2 gradient -->
+  <text x="490" y="174" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="52" font-weight="900" fill="url(#textGrad)" letter-spacing="-2">免费统一接入</text>
+
+  <!-- Subtitle -->
+  <text x="490" y="215" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" fill="#6b7280">一个 API Key，调用 OpenAI、Claude、Gemini、DeepSeek 等</text>
+  <text x="490" y="234" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" fill="#6b7280">250+ 顶级模型。注册即送额度，无需绑卡，真正零门槛。</text>
+
+  <!-- Register button -->
+  <a href="https://api.aifamily.vip/">
+    <rect x="340" y="260" width="200" height="42" rx="12" fill="url(#btnGrad)"/>
+    <text x="440" y="287" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="800" fill="#000">🚀 免费注册，立即领取</text>
+  </a>
+
+  <!-- Docs button -->
+  <rect x="552" y="260" width="120" height="42" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="612" y="287" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="600" fill="#e4e4f0">📖 查看文档</text>
+</svg>
